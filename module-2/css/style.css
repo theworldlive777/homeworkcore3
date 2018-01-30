@@ -1,0 +1,76 @@
+@font-face{
+   font-family: Arial-Black;
+   src: url(../fonts/Arial-Black/Arial-Black.ttf);
+   src: url(../fonts/Arial-Black/Arial-Black.woff);
+   src: url(../fonts/Arial-Black/Arial-Black.woff2);
+   src: url(../fonts/Arial-Black/Arial-Black.eot);
+}
+body{
+background: black;
+}
+h3, li{
+font-family: Arial-Black;
+color: #263555;
+font-size: 14px;
+}
+p{
+font-family: Arial-Black;
+font-size: 12px;
+color: #4e5050;
+}
+.wrapper{
+width: 480px;
+padding: 59px 37px 354px 37px;
+margin: 0 auto;
+background: white;
+}
+.header-img{
+display: block;
+margin: 0 auto;
+width: 100%;
+}
+hr{
+   margin-top: 53px;
+   margin-bottom: 52px;
+}
+.clr{
+   width: 100%;
+   padding: 0;
+}
+.clr li{
+   width: 50%;
+   display: inline-block;
+   margin-bottom: 22px;
+   float: left;
+   }
+.clr li::before{
+   content: url(../image/Layer83.png);
+   display: inline-block;
+   margin-right: 14px;
+}
+.custom-counter{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.custom-counter li{
+  position: relative;
+  counter-increment: step-counter;
+  margin-bottom: 27px;
+}
+.custom-counter li::before {
+  content: counter(step-counter);
+  display: block;
+  position: absolute;
+  top: -26px;
+  background-color: #87CEEB;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 30px;
+}
+ol p{
+   margin-left: 50px; 
+}
+ol h3{
+   margin-left: 50px; 
+}
