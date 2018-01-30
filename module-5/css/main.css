@@ -1,0 +1,205 @@
+body{
+	background: url(../img/background.jpg) center no-repeat;
+}
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	background: #fff;
+}
+header{
+	width: 1024px;
+	height: 235px;
+	margin: 0 auto;
+	position: relative;
+}
+.top-menu{
+	top: 38px;
+}
+.logo{
+	width: 138px;
+	height: 138px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	bottom: 51px;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 138px;
+	font-family: 'Dorsa', sans-serif;
+	font-size: 60px;
+}
+a{
+	color: #193149;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 28px;
+}
+.top-menu{
+	padding: 46px 0px 51px 0px;
+	position: relative;
+	margin-bottom: 150px;
+}
+.left-item{
+	float: left;
+	margin-left: 62px;
+	position: relative;
+}
+.right-item{
+	float: right;
+	margin-right: 62px;
+}
+.main-menu a{
+	text-decoration: none;
+}
+.submenu a{
+	font-size: 20px;
+	color: #263555;
+}
+.submenu{
+	background: #fff;
+	left: -6.5px;
+	border-radius: 3%;
+	padding: 10px 10px 9px 8px;
+	display: none;
+	position: absolute;
+	line-height: 32px;
+	text-align: center;
+}
+li.left-item:hover>ul.submenu{
+	display: block;
+}
+li.left-item:nth-child(2):hover a{
+	color: #263555;
+}
+.slider{
+	position: relative;
+	padding: 58px 61px 0;
+}
+.banner1{
+	position: absolute;
+	background: #fff;
+	width: 225px;
+	height: 61px;
+	top: 276px;
+	color: #344260;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+	line-height: 61px;
+}
+.banner2{
+	position: absolute;
+	background: #38afe5;
+	width: 276px;
+	height: 60px;
+	top: 336px;
+	text-transform: uppercase;
+	font-size: 34px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+	line-height: 60px;
+}
+.button-left{
+	width: 45px;
+	height: 90px;	
+	border-radius: 100% 0 0 100% / 50% 0 0 50%;
+	position: absolute;
+	background: #38afe5;
+	top: 508px;
+	left: 98px;
+}
+
+.button-right{
+	width: 45px;
+	height: 90px;	
+	border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+	position: absolute;
+	background: #38afe5;
+	top: 508px;
+	left: 143px;
+}
+a.button-left:hover{
+	opacity: 0.7;
+}
+a.button-right:hover{
+	opacity: 0.7;
+}
+h1{
+	margin-left: 62px;
+	margin-top: 57px;
+	text-transform: uppercase;
+	color: #263555;
+	font-size: 30px;
+}
+.left-image{
+	position: relative;
+	display: inline-block;
+	background: url(../img/img1.jpg);
+	width: 288px;
+	height: 270px;
+	margin-left: 61px;
+	margin-top: 49px;
+}
+.center-image{
+	display: inline-block;
+	background: url(../img/img2.jpg);
+	width: 288px;
+	height: 270px;
+	margin-left: 17px;
+}
+.right-image{
+	display: inline-block;
+	background: url(../img/img3.jpg);
+	width: 288px;
+	height: 270px;
+	margin-left: 17px;
+}
+.venice{
+	/*display: none*/
+	display: inline-block;
+	opacity: 0;
+	position: absolute;
+	background: #193149;
+	width: 144px;
+	height: 270px;
+	transition: opacity 0.4s ease-in-out;
+	cursor: pointer;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	color: fff;
+	padding-top: 22px; 
+}
+p{
+	font-size: 10px;
+	text-align: center;
+	padding: 23px 9px 0;
+}
+.details{
+	display: inline-block;
+	border-radius: 10%;
+	background: #fff;
+	margin: 32px 12px 0 59px;
+	padding: 6px 13px;
+}
+div.left-image:hover>div.venice{
+	/*display: inline-block;*/
+	opacity: 1;
+	
+}
+.arrow-top{
+	position: fixed;
+	border-radius: 50%;
+	top: 625px;
+	left: 1143px;
+}
+.arrow{
+	height: 136px;
+}
