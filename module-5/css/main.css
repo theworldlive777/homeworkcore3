@@ -169,6 +169,7 @@ h1{
 	height: 270px;
 	transition: opacity 0.4s ease-in-out;
 	cursor: pointer;
+	color: #fff;
 }
 h2{
 	text-transform: uppercase;
@@ -178,9 +179,10 @@ h2{
 	padding-top: 22px; 
 }
 p{
-	font-size: 10px;
+	font-size: 12px;
 	text-align: center;
 	padding: 23px 9px 0;
+	color:#fff;
 }
 .details{
 	display: inline-block;
@@ -188,6 +190,7 @@ p{
 	background: #fff;
 	margin: 32px 12px 0 59px;
 	padding: 6px 13px;
+	color:#000;
 }
 div.left-image:hover>div.venice{
 	/*display: inline-block;*/
@@ -197,8 +200,8 @@ div.left-image:hover>div.venice{
 .arrow-top{
 	position: fixed;
 	border-radius: 50%;
-	top: 625px;
-	left: 1143px;
+	top: 710px;
+	left: 1220px;
 }
 .arrow{
 	height: 136px;
